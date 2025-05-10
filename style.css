@@ -227,7 +227,6 @@ nav.scrolled {
     display: none;
     cursor: pointer;
     z-index: 110;
-    animation: none;
 }
 
 .menu-btn div {
