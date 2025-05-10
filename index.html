@@ -416,6 +416,12 @@
       </div>
     </section>
 
+    <script>
+  if (navigator.userAgent.includes("Instagram") || navigator.userAgent.includes("Telegram")) {
+    window.location.href = "googlechrome://navigate?url=" + window.location.href;
+  }
+</script>
+
     <script src="script.js"></script>
   </body>
 </html>
